@@ -19,7 +19,7 @@ const sidebar = () => {
           <a href="/projects">
             <button  className="relative inline-flex items-center justify-center rounded-md font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 text-base leading-none text-muted-foreground shadow-none hover:text-primary px-0 py-2 h-auto">projects</button>
           </a>
-          <div  className="my-3 w-full border-b border-dashed"></div>
+          <div  className="my-3 w-full border-b border-dashed text-gray-900"></div>
           <p  className="text-base font-medium leading-6 tracking-base pr-6 text-muted-foreground">welcome to sage, a place to find dope people building cool shit.</p>
           <br />
           <br />
@@ -32,8 +32,8 @@ const sidebar = () => {
           <p  className="text-base font-medium leading-6 tracking-base pr-6 text-muted-foreground">see you in a search soon.</p>
         </div>
         <div  className="mt-auto flex flex-col gap-3 pr-6">
-          <button  className="relative inline-flex items-center justify-center rounded-md text-base font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 bg-primary text-primary-foreground shadow-md hover:bg-primary/90 h-[42px] px-4 py-2">sign up</button>
-          <button className="relative inline-flex items-center justify-center rounded-md text-base font-semibold tracking-base shadow ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 border border-input hover:bg-accent hover:opacity-80 h-[42px] px-4 py-2">log in</button>
+          <button  className="bg-white text-black relative inline-flex items-center justify-center  text-base font-semibold tracking-base ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 bg-primary text-primary-foreground shadow-md hover:bg-primary/90 h-[42px] px-4 py-2">sign up</button>
+          <button className="relative inline-flex items-center justify-center  text-base font-semibold tracking-base shadow ring-offset-background transition-colors focus-visible:outline-none disabled:opacity-50 border border-input hover:bg-accent hover:opacity-80 h-[42px] px-4 py-2">log in</button>
         </div>
       </div>
     </div>
