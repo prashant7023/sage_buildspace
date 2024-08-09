@@ -1,0 +1,50 @@
+/* Define keyframes for continuous scrolling */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Carousel container styles */
+.carousel-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: calc(100% * 2);
+}
+
+.carousel {
+  display: flex;
+  animation: scroll-left 10s linear infinite;
+  /* Duplicate content */
+}
+
+/* Adjust for buttons carousel */
+.top-button-carousel {
+  display: flex;
+  animation: scroll-right 10s linear infinite;
+  transition: ease-in-out;
+}
+
+.bottom-button-carousel {
+  display: flex;
+  animation: scroll-left 10s linear infinite;
+}
+
+/* Ensure all carousel items are in a row */
+.carousel-item, .button-item {
+  display: inline-block;
+  white-space: nowrap;
+}
